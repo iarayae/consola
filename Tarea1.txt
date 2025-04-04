@@ -1,0 +1,39 @@
+# Ejercicios Básicos a Partir del Taller
+
+A continuación, se presentan algunos ejercicios que te ayudarán a practicar los comandos vistos en el taller. Recuerda usar únicamente los comandos presentados: `cd`, `ls`, `mkdir`, `rm`, `touch`, `man`, `git status`, `git add .`, y `git commit -m "mensaje cortito"`.
+
+## Ejercicio 1: Navegación y Exploración de Directorios
+
+1. Abre la terminal y ubícate en tu carpeta de trabajo.
+2. Crea una carpeta llamada `proyecto` (usa `mkdir proyecto`).
+3. Ingresa a la carpeta `proyecto` con `cd proyecto`.
+4. Lista los archivos y subcarpetas existentes usando `ls`.
+5. Regresa al directorio anterior con `cd ..`.
+
+## Ejercicio 2: Gestión de Archivos y Carpetas
+
+1. Dentro de tu carpeta de trabajo, crea una carpeta llamada `taller` utilizando `mkdir taller`.
+2. Ingresa a la carpeta `taller` (`cd taller`).
+3. Crea un archivo vacío llamado `notas.txt` con el comando `touch notas.txt`.
+4. Verifica que el archivo se haya creado listando el contenido con `ls`.
+5. Elimina el archivo `notas.txt` usando `rm notas.txt`.
+6. Regresa al directorio anterior (`cd ..`) y elimina la carpeta `taller` con `rm -r taller`.
+
+## Ejercicio 3: Uso de la Documentación del Sistema
+
+1. Selecciona uno de los comandos vistos (por ejemplo, `ls`).
+2. Utiliza el comando `man ls` para revisar la documentación.
+3. Anota en un archivo (puedes usar un editor de texto) tres opciones o banderas que ofrece el comando y qué función cumplen.
+
+## Ejercicio 4: Manejo Básico de Git
+
+> *Nota:* Asegúrate de tener un repositorio de Git ya inicializado para realizar este ejercicio.
+
+1. Realiza un cambio en algún archivo dentro del repositorio.
+2. Usa `git status` para visualizar el estado de los cambios.
+3. Agrega los cambios al área de preparación usando `git add .`
+4. Confirma los cambios con un commit utilizando:  
+   `git commit -m "Actualización del archivo tras modificación"`
+5. Vuelve a ejecutar `git status` para verificar que no queden cambios pendientes.
+
+¡Practica estos ejercicios y experimenta con cada uno de los comandos para afianzar tus conocimientos en el manejo de la consola!
